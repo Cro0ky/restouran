@@ -1,0 +1,334 @@
+body{
+    margin: 0;
+    font-family: Open Sans;
+}
+.container{
+    margin: 0 166px;
+}
+//header
+
+.bg-block{
+    background: url("../img/hero-image.png") no-repeat center center / cover;
+}
+ul{
+    list-style: none;
+}
+.header{
+    
+    &__wrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__logo{
+        margin-right: 286px;
+    }
+    &__btns{
+        display: flex;
+        margin-right: 20px;
+    }
+    &__btn{
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+        margin-right: 12px;
+    }
+    
+    &__cart{
+        margin-right: 16px;
+    }
+    &__number{
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+        margin-left: 8px;
+    }
+    &__num-block{
+        display: flex;
+        align-items: center;
+    }
+    &__info-block{
+        display: flex;
+        flex-direction: column;
+    }
+    &__phone{
+        width: 23px;
+        height: 23px;
+    }
+    &__info-text{
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: -10px;
+
+    }
+    &__btn-block{
+        background: #FF7400;
+        padding: 14px  19px;
+        margin-left: 20px;
+    }
+    &__btn-deliv{
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+    }
+    &__line{
+        width: 0.5px;
+        height: 51px;
+        margin-right: 34px;
+        border: 1px solid #fff;
+    }
+    
+}
+
+.info{
+    &__wrap{
+        display: flex;
+        align-items: center;
+    }
+    &__subtitle{
+        color: #D67E35;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-left: 33px;
+    }
+    &__title{
+        color: #D67E35;
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: -50px;
+    }
+    &__names-block{
+        display: flex;
+        align-items: center;
+        padding-left: 105px;
+        margin-top: -80px;
+    }
+    &__line{
+        width: 61px;
+        height: 0.5px;
+        border: 1px solid #fff;
+    }
+    &__name{
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 0 8px;
+    }
+    &__text-block{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__btn-block{
+        background: #FF7400;
+        padding: 14px 28px;
+        text-align: center;
+        width: 137px;
+        margin-left: 150px; 
+        margin-bottom: 150px;
+    }
+    &__btn{
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+    }
+    
+}
+
+//history
+
+.history{
+    &__stat{
+        display: flex;
+        margin-top: 200px;
+    }
+    &__title{
+        color: #000;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        span{
+            color: #D67E34;
+            font-size: 54px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+    &__text{
+        color: #656363;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        max-width: 444px;
+    }
+    &__statist{
+        display: flex;
+    }
+    &__thing-title{
+        color: #BC9060;
+        text-align: center;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__things{
+        margin-right: 57px;
+    }
+    &__omblock{
+        display: flex;
+        flex-direction: column;
+    }
+    &__stat{
+        display: flex;
+        justify-content: center;
+    }
+    &__card-bg{
+        background-color: #fff;
+        box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.10);
+        width: 349px;
+        height: 328px;
+    }
+    &__cards{
+        display: flex;
+        justify-content: center;
+        margin-top: -100px;
+
+    }
+    &__card{
+        margin-left: 31px;
+    }
+    &__card-logo{
+        margin-left: 120px;
+    }
+    &__card-title{
+        margin-left: 25px;
+        color: #2C2C2C;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        span{
+            color: #BC9060;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+    &__card-text{
+        color: #656363;
+        text-align: center;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__list{
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+}
+
+//offer
+
+.offer{
+    background: url("../img/offer-bg.png") no-repeat center center / cover;
+    &__wrap{
+        display: flex;
+        align-items: center;
+        
+    }
+    &__title{
+        color: #D67E34;
+        font-size: 52px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__subtitle{
+        color: #FFF;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 104px;
+    }
+    &__text-block{
+        display: flex;
+        flex-direction: column;
+    }
+    &__btn-block{
+        display: flex;  
+        background: #FF7400;
+        padding: 14px 19px;
+        
+        margin-left: 500px;
+    }
+    &__btn{
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+    }
+}
+
+//pizza
+.pizza{
+    &__wrap{
+        display: flex;
+    }
+    &__all-block{
+        display: flex;
+        flex-direction: column;
+    }
+    &__title{
+        color: #000;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0 auto;
+        span{
+            color: #D67E34;
+            font-size: 54px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+    &__list{
+        display: flex;
+        flex-direction: column;
+        
+    }
+  
+}
